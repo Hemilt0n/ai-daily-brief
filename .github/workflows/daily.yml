@@ -5,6 +5,9 @@ on:
     - cron: "0 0 * * *" # UTC 00:00 = Beijing 08:00
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
