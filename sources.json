@@ -1,0 +1,34 @@
+{
+  "sources": [
+    {
+      "name": "Hugging Face Papers",
+      "url": "https://huggingface.co/papers/rss",
+      "limit": 5
+    },
+    {
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss/",
+      "limit": 5
+    },
+    {
+      "name": "Anthropic Blog",
+      "url": "https://www.anthropic.com/news/rss.xml",
+      "limit": 5
+    },
+    {
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/tag/artificial-intelligence/feed/",
+      "limit": 5
+    },
+    {
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/artificial-intelligence/rss/index.xml",
+      "limit": 5
+    },
+    {
+      "name": "Ars Technica AI",
+      "url": "https://feeds.arstechnica.com/arstechnica/technology-lab?format=xml",
+      "limit": 5
+    }
+  ]
+}
