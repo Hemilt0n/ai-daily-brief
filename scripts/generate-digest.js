@@ -2,7 +2,11 @@ import fs from 'fs';
 import path from 'path';
 import Parser from 'rss-parser';
 
-const parser = new Parser();
+const parser = new Parser({
+  headers: {
+    'User-Agent': 'ai-daily-brief-bot/1.0 (+https://github.com/Hemilt0n/ai-daily-brief)'
+  }
+});
 const sourcesPath = path.join(process.cwd(), 'sources.json');
 const { sources } = JSON.parse(fs.readFileSync(sourcesPath, 'utf8'));
 

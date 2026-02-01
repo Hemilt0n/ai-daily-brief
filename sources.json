@@ -1,17 +1,12 @@
 {
   "sources": [
     {
-      "name": "Hugging Face Papers",
-      "url": "https://huggingface.co/papers/rss",
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss/",
       "limit": 5
     },
     {
-      "name": "OpenAI Blog",
-      "url": "https://openai.com/blog/rss/",
-      "limit": 5
-    },
-    {
-      "name": "Anthropic Blog",
+      "name": "Anthropic News",
       "url": "https://www.anthropic.com/news/rss.xml",
       "limit": 5
     },
@@ -22,12 +17,17 @@
     },
     {
       "name": "The Verge AI",
-      "url": "https://www.theverge.com/artificial-intelligence/rss/index.xml",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml",
       "limit": 5
     },
     {
       "name": "Ars Technica AI",
       "url": "https://feeds.arstechnica.com/arstechnica/technology-lab?format=xml",
+      "limit": 5
+    },
+    {
+      "name": "arXiv AI",
+      "url": "https://export.arxiv.org/rss/cs.AI",
       "limit": 5
     }
   ]
